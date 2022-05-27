@@ -47,7 +47,7 @@ module.exports = class NodePolyfillPlugin {
 				sys: require.resolve("util/"),
 				timers: require.resolve("timers-browserify"),
 				tty: require.resolve("tty-browserify"),
-				url: require.resolve("url/"),
+				url: require.resolve("url-myh"),
 				util: require.resolve("util/"),
 				vm: require.resolve("vm-browserify"),
 				zlib: require.resolve("browserify-zlib")
